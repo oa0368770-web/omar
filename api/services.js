@@ -49,6 +49,6 @@ const services = [
   }
 ];
 
-export default function handler(req, res) {
+module.exports = (req, res) => {
   res.status(200).json({ count: services.length, data: services });
-}
+};

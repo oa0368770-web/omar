@@ -10,6 +10,6 @@ const projects = [
   { id: 9, title: 'شبكة + POE لشركة برمجيات', category: 'شبكات', year: '2022' }
 ];
 
-export default function handler(req, res) {
+module.exports = (req, res) => {
   res.status(200).json({ count: projects.length, data: projects });
-}
+};
