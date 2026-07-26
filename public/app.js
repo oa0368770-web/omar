@@ -38,7 +38,7 @@ allNavLinks.forEach(link => {
 
 function updateActiveLink() {
     const sections = ['home', 'services', 'about', 'portfolio', 'contact'];
-    const scrollPos = window.scrollY + 150;
+    const scrollPos = window.scrollY + 180;
 
     for (let i = sections.length - 1; i >= 0; i--) {
         const section = document.getElementById(sections[i]);
